@@ -1,0 +1,70 @@
+*{        /*This is a global styling to give all of the background for the page a dark grey color
+          and to have all of the font be a gold color*/
+    background-color: rgb(76, 72, 72);
+    color: rgb(162, 147, 64)
+}
+
+#wrapper{ /*This is a local styling ID that gives the page a padding on all sides.
+          I kept the padding even on the right and left side, but left a little more room on the bottom of the page*/
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+.heading{ /*This is a local styling class that centers the heading, and gives it a different font from the rest
+          of the page*/
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(162, 147, 64)
+}
+
+.input{  /*This is a local styling class that gives the input search button a dark green background
+         and changes the border color to gold*/
+    background-color: rgb(48, 104, 48);
+    border-color: rgb(162, 147, 64);  /*I decided to add a gold border around my input to unify it with the rest of my font*/
+}
+
+#heading1{ /*This is a local styling ID that gives the subheadings a dark green, rounded background, and centers
+           them with a gold color*/
+    background-color: rgb(48, 104, 48);
+    font-weight: bold;    /*I added a bold font weight because a <strong> in my HTML code 
+                          was throwing off the CSS textbox*/
+    border-radius: 25px;  /*This is in order to make the corners of my textbox rounded*/
+    text-align: center;
+}
+
+.hr{  /*This is a local styling class that gives the horizontal rules a thicker, gold color*/
+    border-top: 3px solid rgb(162, 147, 64);  /*I had to use both border top and bottom in order to create
+                                                an even rule on both sides of the line*/
+    border-bottom: 3px solid rgb(162, 147, 64);
+}
+
+.ant_align{   /*The following aligns are local styling classes in order to give the videos and pictures more of 
+              the screen, *when the site is viewed using full screen*. I had to use seperate classes here because for the 
+              second row, the numbers were slightly off in comparison to the first*/
+    padding-right: 200px;
+    padding-left: 50px;
+}
+
+.knock_align{
+    padding-right: 200px;
+}
+
+.opp_align{
+    padding-right: 240px;
+    padding-left: 50px;
+}
+
+.guardians_align{
+    padding-right: 200px;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+
+
+
